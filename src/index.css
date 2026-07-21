@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 216 71% 19%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 216 71% 19%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 71% 19%;
+
+    --primary: 216 71% 19%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 214 65% 33%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 195 76% 85%;
+    --muted-foreground: 216 30% 35%;
+
+    --accent: 211 55% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 30% 85%;
+    --input: 210 30% 85%;
+    --ring: 211 55% 53%;
+
+    --radius: 0.75rem;
+
+    --light-bg: 195 76% 85%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 216 71% 19%;
+    --sidebar-primary: 216 71% 19%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 195 76% 85%;
+    --sidebar-accent-foreground: 216 71% 19%;
+    --sidebar-border: 210 30% 85%;
+    --sidebar-ring: 211 55% 53%;
+
+    --shadow-card: 0 1px 3px rgba(15,40,84,0.06), 0 4px 12px rgba(15,40,84,0.04);
+    --shadow-hover: 0 4px 20px rgba(15,40,84,0.1), 0 1px 4px rgba(15,40,84,0.06);
+    --shadow-primary-glow: 0 0 20px rgba(73,136,196,0.3);
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass-card {
+    background: linear-gradient(140deg, hsl(var(--primary-foreground) / 0.06), hsl(var(--accent) / 0.04));
+    border: 1px solid hsl(var(--primary-foreground) / 0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  .glow-border {
+    box-shadow: 0 0 0 1px hsl(var(--accent) / 0.25), 0 0 30px -5px hsl(var(--accent) / 0.35);
+  }
+  .text-glow {
+    text-shadow: 0 0 24px hsl(var(--accent) / 0.45);
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(hsl(var(--primary-foreground) / 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--primary-foreground) / 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .bg-radial-glow {
+    background: radial-gradient(ellipse at top, hsl(var(--accent) / 0.25), transparent 60%);
+  }
+}
