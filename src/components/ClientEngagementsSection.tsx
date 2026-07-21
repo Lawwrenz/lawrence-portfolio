@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import exhaleLogo from "@/assets/exhalemind-logo.jpeg.asset.json";
-import onfireLogo from "@/assets/onfire-logo.jpeg.asset.json";
+import exhaleLogo from "@/assets/exhalemind-logo.jpeg";
+import onfireLogo from "@/assets/onfire-logo.jpeg";
 
 const clients = [
   {
-    logo: exhaleLogo.url,
+    logo: exhaleLogo,
     alt: "ExhaleMind Wellness logo",
     company: "ExhaleMind Wellness",
     industry: "Mental Health & Wellness",
@@ -21,7 +21,7 @@ const clients = [
     logoBg: "bg-[#f5f1e8]",
   },
   {
-    logo: onfireLogo.url,
+    logo: onfireLogo,
     alt: "Onfire Studios logo",
     company: "Onfire Studios",
     industry: "Creative Media Agency",

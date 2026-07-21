@@ -13,7 +13,7 @@ import {
   Handshake,
   CheckCircle2,
 } from "lucide-react";
-import lawrencePortrait from "@/assets/lawrence-portrait-hero-8k.jpg";";
+import lawrencePortrait from "@/assets/lawrence-portrait-cropped.png";
 
 const transition = { type: "spring" as const, duration: 0.6, bounce: 0 };
 

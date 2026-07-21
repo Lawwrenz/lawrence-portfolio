@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Check } from "lucide-react";
-import exhaleMindCover from "@/assets/exhalemind-project-cover.png.asset.json";
-import renciaCover from "@/assets/rencia-support-cover.png.asset.json";
-import telegramOrderCover from "@/assets/telegram-order-bot-cover.png.asset.json";
-import dailyFxCover from "@/assets/daily-fx-alert-cover.png.asset.json";
-import emailManagementCover from "@/assets/email-management-cover.png.asset.json";
-import calendarManagementCover from "@/assets/calendar-management-cover.png.asset.json";
-import ragKnowledgeCover from "@/assets/rag-knowledge-assistant-cover.png.asset.json";
+import exhaleMindCover from "@/assets/exhalemind-project-cover.png";
+import renciaCover from "@/assets/rencia-support-cover.png";
+import telegramOrderCover from "@/assets/telegram-order-bot-cover.png";
+import dailyFxCover from "@/assets/daily-fx-alert-cover.png";
+import emailManagementCover from "@/assets/email-management-cover.png";
+import calendarManagementCover from "@/assets/calendar-management-cover.png";
+import ragKnowledgeCover from "@/assets/rag-knowledge-assistant-cover.png";
 
 
 
 const featuredProjects = [
   {
-    image: exhaleMindCover.url,
+    image: exhaleMindCover,
     badge: "🌐 Website Development",
     title: "ExhaleMind Wellness",
     industry: "Mental Health & Wellness",
@@ -38,7 +38,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: renciaCover.url,
+    image: renciaCover,
     badge: "🤖 AI Customer Support",
     title: "AI Customer Support Assistant",
     client: "Rencia Salon & Spa",
@@ -65,7 +65,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: telegramOrderCover.url,
+    image: telegramOrderCover,
     badge: "⚙️ Workflow Automation",
     title: "Telegram Order Management Bot",
     industry: "Retail & Business Automation",
@@ -89,7 +89,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: dailyFxCover.url,
+    image: dailyFxCover,
     badge: "📊 Workflow Automation",
     title: "Daily FX Alert System",
     industry: "Finance & Productivity",
@@ -113,7 +113,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: emailManagementCover.url,
+    image: emailManagementCover,
     badge: "💼 Executive Operations",
     title: "Email Management System",
     industry: "Executive Support",
@@ -136,7 +136,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: calendarManagementCover.url,
+    image: calendarManagementCover,
     badge: "📅 Executive Operations",
     title: "Calendar Management System",
     industry: "Executive Support",
@@ -159,7 +159,7 @@ const featuredProjects = [
     ],
   },
   {
-    image: ragKnowledgeCover.url,
+    image: ragKnowledgeCover,
     badge: "🧠 AI Knowledge System",
     title: "RAG Knowledge Assistant",
     client: "Giovanni Electronics Ltd.",

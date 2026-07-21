@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { Award, Bot, Briefcase, GraduationCap, Users } from "lucide-react";
-import certAIAUT from "@/assets/cert-ai-automation-systems-architect.png.asset.json";
-import certSoftware from "@/assets/cert-software-engineering.png.asset.json";
-import certAI from "@/assets/cert-ai-career.png.asset.json";
-import certVA from "@/assets/cert-virtual-assistant.png.asset.json";
-import certPF from "@/assets/cert-professional-foundations.png.asset.json";
-import certZendesk from "@/assets/cert-zendesk.png.asset.json";
+import certAIAUT from "@/assets/cert-ai-automation-systems-architect.png";
+import certSoftware from "@/assets/cert-software-engineering.png";
+import certAI from "@/assets/cert-ai-career.png";
+import certVA from "@/assets/cert-virtual-assistant.png";
+import certPF from "@/assets/cert-professional-foundations.png";
+import certZendesk from "@/assets/cert-zendesk.png";
 
 const transition = { type: "spring" as const, duration: 0.6, bounce: 0 };
 
@@ -34,42 +34,42 @@ const stats = [
 
 const certifications = [
   {
-    image: certAIAUT.url,
+    image: certAIAUT,
     title: "AI Automation & Systems Architect",
     issuer: "NexithAi",
     description:
       "Advanced training in AI automation, intelligent business systems, workflow architecture, AI agents, and scalable automation solutions.",
   },
   {
-    image: certSoftware.url,
+    image: certSoftware,
     title: "Software Engineering",
     issuer: "ALX Africa",
     description:
       "Strong technical foundation for developing modern digital products and scalable software solutions.",
   },
   {
-    image: certAI.url,
+    image: certAI,
     title: "AI Career Essentials",
     issuer: "ALX Africa",
     description:
       "Practical AI, responsible AI, prompt engineering, workplace productivity, and AI adoption.",
   },
   {
-    image: certVA.url,
+    image: certVA,
     title: "Virtual Assistant",
     issuer: "ALX Africa",
     description:
       "Executive support, operations, project coordination, documentation, and remote collaboration.",
   },
   {
-    image: certPF.url,
+    image: certPF,
     title: "Professional Foundations",
     issuer: "ALX Africa",
     description:
       "Leadership, communication, professionalism, teamwork, and workplace effectiveness.",
   },
   {
-    image: certZendesk.url,
+    image: certZendesk,
     title: "Zendesk Chat for Customer Service Agents",
     issuer: "Udemy",
     description:
