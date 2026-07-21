@@ -13,7 +13,7 @@ import {
   Handshake,
   CheckCircle2,
 } from "lucide-react";
-import lawrencePortrait from "@/assets/lawrence-portrait-cropped.png.asset.json";
+import lawrencePortrait from "@/assets/lawrence-portrait-hero-8k.jpg";";
 
 const transition = { type: "spring" as const, duration: 0.6, bounce: 0 };
 
@@ -125,7 +125,7 @@ const AboutSection = () => {
             <div className="relative rounded-3xl overflow-hidden border border-white/60 bg-white/40 backdrop-blur-xl shadow-2xl shadow-secondary/10 p-3 mb-10">
               <div className="rounded-2xl overflow-hidden aspect-[4/5] bg-gradient-to-br from-[hsl(var(--light-bg))] to-white">
                 <img
-                  src={lawrencePortrait.url}
+                  src={lawrencePortrait}
                   alt="Lawrence Ezealor — Executive Operations & AI Automation Specialist"
                   className="w-full h-full object-cover"
                   width={720}
